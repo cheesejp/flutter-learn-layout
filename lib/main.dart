@@ -9,14 +9,14 @@ const MODE_LAYOUT = 'layout';
 const MODE_GAME_APP = 'game-app';
 
 void main() => runApp(
-      MyTab(
+      MyApp(
         mode: MODE_GAME_APP,
         // mode: MODE_LAYOUT,
       ),
     );
 
-class MyTab extends StatelessWidget {
-  MyTab({@required this.mode});
+class MyApp extends StatelessWidget {
+  MyApp({@required this.mode});
   final String mode;
 
   @override
